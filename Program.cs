@@ -19,9 +19,9 @@ namespace SerilogWithDb
     public class Program
     {
         private const string ConnectionString =
-            "Server=13.92.139.189,50833;Database=USAHERDSMO_RENEWAL;User ID=agraadmin;Password=~Agra!Admin2016";
+            "Server=13.92.139.189,50833;Database=USAHERDSMO_RENEWAL_LOG;User ID=USAHERDSMO_LOG;Password=!@GOLred%$^234";
         private const string SchemaName = "T";
-        private const string TableName = "Log";
+        private const string TableName = "EventLog";
 
         public static void Main(string[] args)
         {
